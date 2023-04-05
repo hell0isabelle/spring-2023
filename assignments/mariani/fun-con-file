@@ -1,0 +1,5 @@
+FROM fedora
+WORKDIR mariani
+ADD guess-num /mariani
+RUN chmod +x /mariani/guess-num
+RUN sh guess-num
