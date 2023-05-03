@@ -1,0 +1,9 @@
+podman build -t myimage .
+podman run -it --rm myimage sh
+podman run --rm myimage
+
+podman login docker.io
+podman tag myimage docker.io/leannert/countdown:latest
+podman push docker.io/leannert/countdown:latest
+
+podman rmi --all
