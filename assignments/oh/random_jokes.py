@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # this is a python file that generates the joke
 # the jokes are generated from chatgpt
 import random
