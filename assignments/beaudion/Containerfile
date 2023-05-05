@@ -1,0 +1,5 @@
+FROM alpine
+WORKDIR /beaudion
+ADD addition.sh /beaudion
+RUN chmod +x /beaudion/addition.sh
+CMD ./addition.sh
