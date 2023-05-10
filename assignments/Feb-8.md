@@ -4,8 +4,8 @@ Note: `directory` and `folder` are interchangeable in the following tasks.
 
 0. You should have already shared your `public SSH key` in [this document](https://docs.google.com/document/d/1In6AP09tpR55C3jno_HZntkNrDZtqnz-KJuZMI07E5I/edit?usp=sharing).
 
-1. SSH into the machine running at IP address `34.136.55.207`. Use the username `fedora`.
-  - _hint_ $ ssh -i ~/.ssh/id_rsa fedora@34.136.55.207
+1. SSH into the machine running at IP address `34.71.128.214`. Use the username `fedora`.
+  - _hint_ $ ssh -i ~/.ssh/id_rsa fedora@34.71.128.214
 
 2. Create a new directory using your last and first names in the folder `/home/fedora/feb-8`. Use `ls -al ~/feb-8` to view what's in the `feb-8` directory. Use yourlastname-yourfirstname as the directory name.
 
